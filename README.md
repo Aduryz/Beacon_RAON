@@ -8,7 +8,7 @@
 AT커맨드 할 때는 뭐든지 GPI도 같은 전압을 줘야한다.
 
 ## AT커맨드 에러
-AT커맨드가 계속 에러나올 때는 
+AT커맨드가 계속 에러나올 때는 <br>
 void loop(){ <br>
 **while**(mySerial.available()) <br>
   Serial.write(mySerial.read()); <br>
